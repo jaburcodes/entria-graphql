@@ -20,7 +20,7 @@
     "ramda": "^0.25.0",
     "recast": "^0.14.7",
     "relative": "^3.0.2",
-    "semver": "^5.5.0",
+    "semver": "^7.3.2",
     "shelljs": "^0.8.2",
     "yeoman-generator": "^2.0.5"
   },
