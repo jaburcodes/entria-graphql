@@ -1,0 +1,24 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+  pull-request-branch-name:
+    separator: "-"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: yeoman-test
+    versions:
+    - 4.0.0
+  - dependency-name: semver
+    versions:
+    - 7.3.4
+  - dependency-name: lerna
+    versions:
+    - 3.22.1
+  - dependency-name: handlebars
+    versions:
+    - 4.7.6
+  rebase-strategy: disabled
